@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- fontawesome icons -->
+    <script src="https://kit.fontawesome.com/fcd1311e70.js" crossorigin="anonymous"></script>
+
+    <!-- cdnjs-fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>iWatch</title>
+</head>
+
+<body class="black">
+    <!-- Navbar -->
+    <div class="navbar-fixed">
+        <nav class="grey darken-4">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="index.html">
+                        <i class="brand-logo"><img src="images/iwatch-logo.webp" alt="logo"></i>
+                    </a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li class="active">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="movies.html">Movies</a>
+                        </li>
+                        <li>
+                            <a href="series.html">Series</a>
+                        </li>
+                        <li>
+                            <a href="anime.html">Anime</a>
+                        </li>
+                        <li>
+                            <a href=""><i class="material-icons">search</i></a>
+                        </li>
+                        <li class="no-hover-effect">
+                            <a href="" class="btn-small btn-color hoverable">Sign in</a>
+                        </li>
+                    </ul>
+
+
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                        <i class="fa-solid fa-bars left"></i>
+                    </a>
+
+                    <a href=""><i class="material-icons right hide-on-large-only">search</i></a>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Sidebar -->
+    <ul class="sidenav grey darken-4" id="mobile-demo">
+        <li><a class="white-text" href="index.html">Home</a></li>
+        <li><a class="white-text" href="movies.html">Movies</a></li>
+        <li><a class="white-text" href="series.html">Series</a></li>
+        <li><a class="white-text" href="anime.html">Anime</a></li>
+        <li><a class="white-text" href="#">Sign in</a></li>
+    </ul>
+
+    <!-- Parallax -->
+    <div class="parallax-container hide-on-small-only">
+        <div class="parallax">
+            <img src="images/parallax.png" alt="" class="responsive-img">
+        </div>
+    </div>
+
+    <div class="parallax-overlay hide-on-small-only">
+        <h3>Welcome to iWatch</h3>
+        <p class="overlay">Watch movies together</p>
+    </div>
+
+    <!-- carousel -->
+        <div class="row">
+            <div class="col s12 l6">
+                <div class="carousel hide-on-med-and-down">
+                    <a class="carousel-item" href=""><img src="images/elemental.jpg" alt="" ></a>
+                    <a class="carousel-item" href=""><img src="images/peter-pan.jpg" alt=""></a>
+                    <a class="carousel-item" href=""><img src="images/little-mermaid.jpg" alt=""></a>
+                    <a class="carousel-item" href=""><img src="images/shazam.jpg" alt=""></a>
+                    <a class="carousel-item" href=""><img src="images/quantumania.jpg" alt=""></a>
+                </div>
+            </div>
+
+            <br><br><br><br>
+            <div class="col s11 m11 l5" style="margin-left: 20px;">
+                    <h4 class="text-color">iWatch: Your Gateway to Cinematic Wonders</h4>
+                    <h6 class="grey-text text-lighten-1">Your ultimate destination for all things cinema.</h6>
+                    <p class="white-text">
+                        Discover the latest movies, series, and anime exclusives. Join our vibrant community of film enthusiasts and let the movie magic begin! Lights, camera, action!
+                    </p>
+            </div>
+        </div>
+        <br><br>
+
+        <!-- Trending -->
+        <div class="row">
+            <div class="col s12 l8">
+                <h5 class="text-color">Trending <i class="fa-solid fa-fire-flame-curved"></i></h5>
+                <div class="divider amber darken-2"></div>
+                <br>
+                <div class="row">
+                    <div class="col s6 m4 l2">
+                        <img src="images/elemental.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/peter-pan.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/little-mermaid.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/quantumania.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/whisker-away.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/king-the-land.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s6 m4 l2">
+                        <img src="images/extraction.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/evil-dead-rise.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/resident-evil.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/flash.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/alchemy.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/unlocked.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                </div>
+                <br>
+                
+                <!-- Buttons -->
+                <div class="row">
+                    <div class="col s12 right-align">
+                        <a href="" class="btn-small btn-color"><i class="fa-solid fa-play"></i> &nbsp; Watch now </a>
+                        &nbsp; &nbsp; &nbsp;
+                        <a href="" class="btn-small btn-color"> Next <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div> 
+            </div>
+            <br><br>
+            <!-- subscribe to premium-->
+            <div class="col l3" style="margin-left: 50px;">
+                <div class="card medium hide-on-med-and-down">
+                    <div class="card-image">
+                        <img src="images/who-loved-you.jpg" alt="" style="margin: 0;">
+                    </div>
+                    <div class="card-content">
+                        <h6 class="text-color">Subscribe to Premium NOW!</h6> <br>
+                        <p>Get the most exclusive and up to date movies, series and anime.</p>
+                    </div>
+                    <div class="card-action right-align">
+                        <a href="#subscribe" class="btn-small btn-color btn modal-trigger">Subscribe now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Most viewed -->
+        <div class="row">
+            <div class="col s12 l8">
+                <h5 class="text-color">Most viewed <i class="fa-solid fa-eye"></i></h5> 
+                <div class="divider amber darken-2"></div>
+                <br>
+                <div class="row">
+                    <div class="col s6 m4 l2">
+                        <img src="images/elemental.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/shazam.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/transformers.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/blue-beetle.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/wish.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/heavenly-idol.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s6 m4 l2">
+                        <img src="images/call-it-love.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/strangers-again.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/black-night.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/love-hate.jpg" alt="" class="responsive-img materialboxed"> 
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/fabulous.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/a-love-so-beautiful.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                </div>
+                <br>
+                <!-- Buttons -->
+                <div class="row">
+                    <div class="col s12 right-align">
+                        <a href="" class="btn-small btn-color"><i class="fa-solid fa-play"></i> &nbsp; Watch now </a>
+                        &nbsp; &nbsp; &nbsp;
+                        <a href="" class="btn-small btn-color"> Next <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    
+    <div style="height: 100px;"></div>
+
+    <!-- modal for subscribe -->
+    <div id="subscribe" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <h6>Welcome to iWatch Movie Site! </h6>
+            <p class="modal-text">We are excited to have you as a subscriber. Below is a step-by-step subscription procedure to get you started:
+            <br><br>
+            Step 1: Visit the iWatch Movie Site <br>
+            Go to our website's homepage by typing "www.iwatchmoviesite.com" in your web browser.
+            <br><br>
+            Step 2: Explore the Subscription Plans <br>
+            Once you're on our homepage, navigate to the "Subscription" section.We offer monthly, quarterly, and annual plans. 
+            <br><br>
+            Step 3: Select Your Preferred Plan <br>
+            After selecting the plan that fits your requirements, click on the "Subscribe" or "Sign Up" button next to it.
+            <br><br>
+            Step 4: Create an Account <br>
+            To proceed with the subscription, you will need to create an account with iWatch Movie Site. You'll be prompted to enter your email address and choose a secure password. 
+            <br><br>
+            Step 5: Provide Personal Information <br>
+            Next, you'll be asked to provide some basic personal information, such as your name, date of birth, and country of residence.
+            <br><br>
+            Step 6: Payment Information <br>
+            In this step, you'll need to enter your payment details. We accept various payment methods, including credit cards, debit cards, and online payment platforms.
+            <br><br>
+            Step 7: Confirm Subscription <br>
+            Review all the information you've provided and the selected subscription plan. Once you are satisfied, click on the "Confirm Subscription" or similar button to proceed.</p>
+        </div>
+        <div class="modal-footer">
+            <a href="" class="modal-close waves-effect btn-flat text-color"> Subscribe now</a>
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="page-footer grey darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12 m6">
+                    <h3 class="text-color">iWatch</h3>
+                    <p class="grey-text text-lighten-4">Join our vibrant community of film enthusiasts and let the movie magic begin!</p>
+                </div>
+
+                <div class="col l4 offset-l2 s12 m4 offset-m2">
+                    <h5 class="text-color">Contact Us</h5>
+                    <ul>
+                        <li class="footer-link">
+                            <a class="grey-text text-lighten-3" href="#!">
+                            <i class="fa-brands fa-facebook fa-lg"></i> &nbsp; www.facebook.com/iWatch</a>
+                        </li><br>
+                        <li class="footer-link">
+                            <a class="grey-text text-lighten-3" href="#!">
+                                <i class="fa-brands fa-instagram fa-lg"></i> &nbsp; www.instagram.com/iWatch</a>
+                        </li><br>
+                        <li class="footer-link">
+                            <a class="grey-text text-lighten-3" href="#!">
+                                <i class="fa-solid fa-envelope fa-lg"></i> &nbsp; iWatch@gmail.com</a>
+                        </li><br>
+                        <li class="footer-link">
+                            <a class="grey-text text-lighten-3" href="#!">
+                                <i class="fa-solid fa-phone fa-lg"></i> &nbsp; 0912-354-6235</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyright black">
+            <div class="container amber-text center">
+            © 2023 All Rights Reserved
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

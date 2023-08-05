@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- fontawesome icons -->
+    <script src="https://kit.fontawesome.com/fcd1311e70.js" crossorigin="anonymous"></script>
+
+    <!-- cdnjs-fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>iWatch</title>
+</head>
+<body class="black">
+    <!-- Navbar -->
+    <div class="navbar-fixed">
+        <nav class="grey darken-4">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="index.html">
+                        <i class="brand-logo"><img src="images/iwatch-logo.webp" alt="logo"></i>
+                    </a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="active">
+                            <a href="movies.html">Movies</a>
+                        </li>
+                        <li>
+                            <a href="series.html">Series</a>
+                        </li>
+                        <li>
+                            <a href="anime.html">Anime</a>
+                        </li>
+                        <li>
+                            <a href=""><i class="material-icons">search</i></a>
+                        </li>
+                        <li class="no-hover-effect">
+                            <a href="" class="btn-small btn-color">Sign in</a>
+                        </li>
+                    </ul>
+
+
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+
+                    <a href=""><i class="material-icons right hide-on-large-only">search</i></a>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Sidebar -->
+   <ul class="sidenav grey darken-4" id="mobile-demo">
+        <li><a class="white-text" href="index.html">Home</a></li>
+        <li><a class="white-text" href="movies.html">Movies</a></li>
+        <li><a class="white-text" href="series.html">Series</a></li>
+        <li><a class="white-text" href="anime.html">Anime</a></li>
+        <li><a class="white-text" href="#">Sign in</a></li>
+    </ul>
+
+    <!-- Slider -->
+    <div class="container">
+        <div class="slider hide-on-med-and-down">
+            <ul class="slides">
+                <li>
+                    <img src="images/avengers.jpg" alt="" class="slider-image">
+                </li>
+                <li>
+                    <img src="images/tale-of-the-nine-tailed-1938.jpg" alt="" class="slider-image">
+                </li>
+                <li>
+                    <img src="images/suzume.webp" alt="" class="slider-image">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <!-- Action-->
+        <div class="row">
+            <div class="col s12 l9">
+                <div class="row section scrollspy" id="action">
+                    <h5 class="text-color"> Action <i class="fa-solid fa-tv"></i></h5> 
+                    <div class="divider amber darken-2"></div>
+                    <br>
+                    <div class="col s6 m4 l2">
+                        <img src="images/action1.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/action2.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/action3.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/action4.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/wish.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/heavenly-idol.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s6 m4 l2">
+                        <img src="images/call-it-love.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/strangers-again.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/black-night.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/love-hate.jpg" alt="" class="responsive-img materialboxed"> 
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/fabulous.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/a-love-so-beautiful.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                </div>
+                <br>
+                <!-- Buttons -->
+                <div class="row">
+                    <div class="col s12 right-align">
+                        <a href="" class="btn-small btn-color"><i class="fa-solid fa-play"></i> &nbsp; Watch now </a>
+                        &nbsp; &nbsp; &nbsp;
+                        <a href="" class="btn-small btn-color"> Next <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div> 
+
+                <!-- Comedy -->
+                <div id="comedy" class="section scrollspy">
+                    <h5 class="text-color"> Comedy <i class="fa-solid fa-tv"></i></h5> 
+                    <div class="divider amber darken-2"></div>
+                    <br>
+                <div class="row">
+                    <div class="col s6 m4 l2">
+                        <img src="images/elemental.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/shazam.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/transformers.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/blue-beetle.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/wish.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/heavenly-idol.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s6 m4 l2">
+                        <img src="images/call-it-love.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/strangers-again.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/black-night.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/love-hate.jpg" alt="" class="responsive-img materialboxed"> 
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/fabulous.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/a-love-so-beautiful.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                </div>
+                <br>
+                <!-- Buttons -->
+                <div class="row">
+                    <div class="col s12 right-align">
+                        <a href="" class="btn-small btn-color"><i class="fa-solid fa-play"></i> &nbsp; Watch now </a>
+                        &nbsp; &nbsp; &nbsp;
+                        <a href="" class="btn-small btn-color"> Next <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div> 
+                </div>
+
+                <!-- Drama -->
+                <div id="drama" class="section scrollspy">
+                    <h5 class="text-color"> Drama <i class="fa-solid fa-tv"></i></h5> 
+                    <div class="divider amber darken-2"></div>
+                    <br>
+                <div class="row">
+                    <div class="col s6 m4 l2">
+                        <img src="images/elemental.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/shazam.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/transformers.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/blue-beetle.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/wish.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/heavenly-idol.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s6 m4 l2">
+                        <img src="images/call-it-love.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/strangers-again.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/black-night.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/love-hate.jpg" alt="" class="responsive-img materialboxed"> 
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/fabulous.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/a-love-so-beautiful.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                </div>
+                <br>
+                <!-- Buttons -->
+                <div class="row">
+                    <div class="col s12 right-align">
+                        <a href="" class="btn-small btn-color"><i class="fa-solid fa-play"></i> &nbsp; Watch now </a>
+                        &nbsp; &nbsp; &nbsp;
+                        <a href="" class="btn-small btn-color"> Next <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div> 
+                </div>
+
+                <!-- Horror -->
+                <div id="horror" class="section scrollspy">
+                    <h5 class="text-color"> Horror <i class="fa-solid fa-tv"></i></h5> 
+                    <div class="divider amber darken-2"></div>
+                    <br>
+                <div class="row">
+                    <div class="col s6 m4 l2">
+                        <img src="images/horror1.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/horror2.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/horror3.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/horror4.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/wish.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/horror5.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s6 m4 l2">
+                        <img src="images/call-it-love.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/strangers-again.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/black-night.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/love-hate.jpg" alt="" class="responsive-img materialboxed"> 
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/fabulous.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/a-love-so-beautiful.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                </div>
+                <br>
+                <!-- Buttons -->
+                <div class="row">
+                    <div class="col s12 right-align">
+                        <a href="" class="btn-small btn-color"><i class="fa-solid fa-play"></i> &nbsp; Watch now </a>
+                        &nbsp; &nbsp; &nbsp;
+                        <a href="" class="btn-small btn-color"> Next <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div> 
+                </div>
+
+                <!-- Romance -->
+                <div id="romance" class="section scrollspy">
+                    <h5 class="text-color"> Romance <i class="fa-solid fa-tv"></i></h5> 
+                    <div class="divider amber darken-2"></div>
+                    <br>
+                <div class="row">
+                    <div class="col s6 m4 l2">
+                        <img src="images/elemental.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/shazam.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/transformers.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/blue-beetle.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/wish.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/heavenly-idol.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s6 m4 l2">
+                        <img src="images/call-it-love.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/strangers-again.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/black-night.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/love-hate.jpg" alt="" class="responsive-img materialboxed"> 
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/fabulous.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s6 m4 l2">
+                        <img src="images/a-love-so-beautiful.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                </div>
+                <br>
+                <!-- Buttons -->
+                <div class="row">
+                    <div class="col s12 right-align">
+                        <a href="" class="btn-small btn-color"><i class="fa-solid fa-play"></i> &nbsp; Watch now </a>
+                        &nbsp; &nbsp; &nbsp;
+                        <a href="" class="btn-small btn-color"> Next <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div> 
+                </div>
+            </div>
+            
+            <!-- Scrollspy -->
+            <br>
+            <div class="col s12 l2 hide-on-med-and-down image-stock-content" style="margin-left: 60px;">
+                <img src="images/who-loved-you.jpg" alt="" class="responsive-img">
+                <a class="text-color" href="" style="font-size: 12px;">Watch your favorite anime here</a>
+
+                <ul class="section table-of-contents">
+                    <li><a href="#action">Action</a></li>
+                    <li><a href="#comedy">Comedy</a></li>
+                    <li><a href="#drama">Drama</a></li>
+                    <li><a href="#horror">Horror</a></li>
+                    <li><a href="#romance">Romance</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+<div style="height: 200px;"></div>
+
+
+
+
+    <!-- Footer -->
+    <footer class="page-footer grey darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12 m6">
+                    <h3 class="text-color">iWatch</h3>
+                    <p class="grey-text text-lighten-4">Join our vibrant community of film enthusiasts and let the movie magic begin!</p>
+                </div>
+
+                <div class="col l4 offset-l2 s12 m4 offset-m2">
+                    <h5 class="text-color">Contact Us</h5>
+                    <ul>
+                        <li class="footer-link">
+                            <a class="grey-text text-lighten-3" href="#!">
+                            <i class="fa-brands fa-facebook fa-lg"></i> &nbsp; www.facebook.com/iWatch</a>
+                        </li><br>
+                        <li class="footer-link">
+                            <a class="grey-text text-lighten-3" href="#!">
+                                <i class="fa-brands fa-instagram fa-lg"></i> &nbsp; www.instagram.com/iWatch</a>
+                        </li><br>
+                        <li class="footer-link">
+                            <a class="grey-text text-lighten-3" href="#!">
+                                <i class="fa-solid fa-envelope fa-lg"></i> &nbsp; iWatch@gmail.com</a>
+                        </li><br>
+                        <li class="footer-link">
+                            <a class="grey-text text-lighten-3" href="#!">
+                                <i class="fa-solid fa-phone fa-lg"></i> &nbsp; 0912-354-6235</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyright black">
+            <div class="container amber-text center">
+            © 2023 All Rights Reserved
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
